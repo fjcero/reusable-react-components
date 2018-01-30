@@ -1,0 +1,55 @@
+{
+  "name": "@welltok/voltron-components.dropdown",
+  "version": "1.0.0",
+  "description": "A wrapper for HTML select element",
+  "main": "build/dropdown.js",
+  "jsnext:main": "dropdown.js",
+  "scripts": {
+    "build": "rm -rf build && mkdir build && ../../node_modules/babel/bin/babel.js ./dropdown.js --out-file ./build/dropdown.js",
+    "test": "npm --prefix ../.. run test",
+    "pretest": "npm run build",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/welltok/voltron-components.git"
+  },
+  "keywords": [
+    "voltron",
+    "voltron-component",
+    "react",
+    "dropdown"
+  ],
+  "author": "Francisco Caballero",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/welltok/voltron-components/issues"
+  },
+  "homepage": "https://github.com/welltok/voltron-components/tree/master/packages/dropdown",
+  "dependencies": {
+    "babel-runtime": "^5.8.35",
+    "lodash": "~4.17.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "global": [
+      "describe",
+      "it",
+      "xit",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "chai",
+      "sinon",
+      "expect",
+      "React",
+      "TestUtils",
+      "mount",
+      "shallow",
+      "render",
+      "ReactDOM",
+      "noop"
+    ]
+  }
+}
