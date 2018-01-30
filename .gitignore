@@ -1,0 +1,8 @@
+node_modules
+/pkg
+.DS_Store
+npm-debug.log
+npm-debug.log.*
+etc
+packages/*/.npmrc
+packages/*/build
