@@ -10,7 +10,7 @@
 
 ### Getting Started
 
-* `git clone git@github.com:fjcero/some-react-components`
+* `git clone git@github.com:fjcero/reusable-react-components`
 * `nvm use`
 * `npm install`
 * `npm test`
