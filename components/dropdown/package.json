@@ -1,5 +1,5 @@
 {
-  "name": "@welltok/voltron-components.dropdown",
+  "name": "reusable-react-components.dropdown",
   "version": "1.0.0",
   "description": "A wrapper for HTML select element",
   "main": "build/dropdown.js",
@@ -12,20 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/welltok/voltron-components.git"
+    "url": "git+ssh://git@github.com/fjcero/reusable-react-components"
   },
   "keywords": [
-    "voltron",
-    "voltron-component",
     "react",
     "dropdown"
   ],
   "author": "Francisco Caballero",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/welltok/voltron-components/issues"
-  },
-  "homepage": "https://github.com/welltok/voltron-components/tree/master/packages/dropdown",
   "dependencies": {
     "babel-runtime": "^5.8.35",
     "lodash": "~4.17.2"
